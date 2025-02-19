@@ -1,6 +1,4 @@
 <?php
-try{
-//try catch pega uma exção e mostra uma mensagen de erro que eu quiser
 
 $host = 'localhost';
 $usuario = 'root';
