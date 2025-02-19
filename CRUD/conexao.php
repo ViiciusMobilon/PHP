@@ -1,4 +1,7 @@
 <?php
+try{
+//try catch pega uma exção e mostra uma mensagen de erro que eu quiser
+
 $host = 'localhost';
 $usuario = 'root';
 $senha = '';
@@ -12,5 +15,8 @@ $conexao = @new mysqli($host, $usuario, $senha, $banco);
 
 if ($conexao->connect_error) {
     die("Problema com a conexão do Banco de dados.<br><br>Descrição: " . mysqli_connect_error());
+}
+}catch(Exception $e){
+    echo $e->getMessage("erro");
 }
 ?>
