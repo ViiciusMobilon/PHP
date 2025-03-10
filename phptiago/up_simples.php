@@ -14,7 +14,7 @@ if(!is_dir($diretorio_destino)) //is_dir serve para ver se o diretorio exciste
   $ext_arquivo= pathinfo($_FILES ["arquivo_up"]["tmp_name"], )
 
       //_FILES CONTEM TODOS OS DADOS DO QUE ESTA SENDO ENVIADO
-var_dump($_FILES);
+//var_dump($_FILES);
 
 
 // caminho do novo arquivo no servidor
